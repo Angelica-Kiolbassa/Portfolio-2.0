@@ -3,6 +3,11 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+footer {
+  color: #3e887e;
+  margin-top: 35px;
+}
+
 h1 {
   font-size: 70px;
   margin-top: 150px;
@@ -14,19 +19,10 @@ li {
   text-align: center;
 }
 
-footer {
-  color: #3e887e;
-  margin-top: 35px;
-}
-
 .btn-primary {
   background: #99e2b4 !important;
   border-color: #99e2b4;
   color: #000000 !important;
-}
-
-.navbar-nav {
-  justify-content: center;
 }
 
 .fixed-top .navbar-collapse {
@@ -39,15 +35,13 @@ footer {
   color: #99e2b4;
 }
 
-#bird {
-  margin: 0;
+.navbar-nav {
+  justify-content: center;
 }
 
-#photo2 {
-  border-radius: 50%;
-  margin-top: 85px;
-  margin-left: -215px;
-  border: 5px solid #99e2b4;
+#headline {
+  font-family: Lora !important;
+  color: #3e887e;
 }
 
 #navigation {
@@ -58,7 +52,9 @@ footer {
   border-radius: 50;
 }
 
-#headline {
-  font-family: Lora !important;
-  color: #3e887e;
+#photo2 {
+  border-radius: 50%;
+  margin-top: 85px;
+  margin-left: -215px;
+  border: 5px solid #99e2b4;
 }
