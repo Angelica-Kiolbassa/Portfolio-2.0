@@ -5,7 +5,9 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
+  margin-top: 150px;
+  margin-left: -100px;
 }
 
 li {
@@ -17,10 +19,27 @@ li {
   justify-content: center;
 }
 
+.fixed-top .navbar-collapse {
+  max-height: 2em;
+  overflow-y: auto;
+}
+
+#photo2 {
+  border-radius: 50%;
+  margin-top: 85px;
+  margin-left: -270px;
+  border: 5px solid #99e2b4;
+}
+
 #navigation {
   background-color: #99e2b4 !important;
 }
 
 #nav-pic {
-  border-radius: 50px;
+  border-radius: 50;
+}
+
+#headline {
+  font-family: Lora !important;
+  color: #3e887e;
 }
