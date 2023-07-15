@@ -16,7 +16,7 @@ li {
 
 footer {
   color: #3e887e;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .btn-primary {
@@ -24,7 +24,6 @@ footer {
   border-color: #99e2b4;
   color: #000000 !important;
 }
-
 
 .navbar-nav {
   justify-content: center;
@@ -38,13 +37,11 @@ footer {
 .footer {
   text-decoration: none;
   color: #99e2b4;
-  tex
 }
 
 #bird {
   margin: 0;
 }
-
 
 #photo2 {
   border-radius: 50%;
