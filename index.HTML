@@ -15,23 +15,51 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Front-End Developer - Angelica Kiolbassa</title>
+
+    <style>
+    @media (min-width: 1400px) {
+#link-1 {
+    margin-left:415px;
+}
+#btn-1 {
+    margin-left:415px
+}
+    }
+      @media (max-width:1415px){
+       
+        #link-1 {
+            margin-left: 0 auto; 
+        }
+        #btn-1 {
+            margin-left: 0 auto;
+        }
+    }
+
+    @media (max-width:765px){
+    h1 {
+font-size:30px;
+    }
+
+    }
+    </style>
   </head>
   <body>
 
-    <nav class="navbar fixed-top bg-body-tertiary">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light" id="navigation">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="images/me1.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      <img src="images/me1.jpg" id="nav-pic" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
       Angelica Kiolbassa
     </a>
 
-
- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
+    
+        <li class="nav-item p-6"
+        id="link-1">
           <a class="nav-link active" aria-current="page" href="projects.HTML">Projects</a>
         </li>
         <li class="nav-item">
@@ -40,42 +68,48 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.HTML">Contact</a>
         </li>
-    
+
+
     </ul>
-              <li class="nav-item">
+              <li class="nav-item"
+              class="nav-btn"
+              id="btn-1">
                 <a
-                  class="cta btn btn-primary shadow-sm"
+                  class="btn"
                   href="https://github.com/Angelica-Kiolbassa"
-                  ><img src="images/git.png" alt="github logo" width="50px"
+                  ><img src="images/git.png" alt="github logo" width="35px"
                 /></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" class="nav-btn">
                 <a
-                  class="cta btn btn-primary shadow-sm"
+                  class="btn"
                   href="https://www.linkedin.com/in/angelica-kiolbassa-ab4930283/"
                   ><img
-                    src="images/Linkedin.png"
+                    src="images/linkedin.webp"
                     alt="linkedin logo"
                     width="50px"
                 /></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" class="nav-btn">
                 <a
-                  class="cta btn btn-primary shadow-sm"
+                  class="btn"
                   href="https://www.instagram.com/creating_angelica"
-                  ><img src="images/IG.png" alt="instagram logo" width="50px"
+                  ><img src="images/IG.png" alt="instagram logo" width="35px"
                 /></a>
               </li>
             </ul>
           </div>
         </div>
+    </div>
 </nav>
     </div>
     <br />
     <br />
     <br />
     <br />
-    <h1>Hi, I'm Angelica</h1>
+    <h1>Hi, 
+        <br>
+        I'm Angelica</h1>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
