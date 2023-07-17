@@ -34,6 +34,20 @@ li {
   justify-content: center;
 }
 
+#art {
+  margin-top: 60px;
+  color: #3e887e;
+  font-weight: bold;
+}
+
+#art-pic {
+  margin-top: 100px;
+}
+
+#art-app {
+  margin-top: 75px;
+}
+
 #headline {
   font-family: Lora !important;
   color: #3e887e;
@@ -52,4 +66,12 @@ li {
   margin-top: 85px;
   margin-left: -215px;
   border: 5px solid #99e2b4;
+}
+
+#weather-app {
+  margin-top: 75px;
+}
+
+#weather-des {
+  margin-top: 100px;
 }
