@@ -25,6 +25,13 @@ li {
   color: #000000 !important;
 }
 
+.btn-primary:hover {
+  border-color: #99e2b4;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 8px 2px #3e887e;
+  transition: all 200ms ease-in-out;
+}
+
 .footer {
   text-decoration: none;
   color: #99e2b4;
@@ -45,7 +52,31 @@ li {
 }
 
 #art-app {
-  margin-top: 75px;
+  margin-top: 100px;
+}
+
+#art-des {
+  margin-top: 100px;
+  color: #3e887e;
+}
+
+.contact-section {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+#contact-btn {
+  background: #3e887e !important;
+  border-color: #3e887e !important;
+  color: #99e2b4 !important;
+}
+
+#contact-btn:hover {
+  border-color: #3e887e;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 8px 2px #99e2b4;
+  transition: all 200ms ease-in-out;
 }
 
 #headline {
@@ -69,9 +100,11 @@ li {
 }
 
 #weather-app {
-  margin-top: 75px;
+  margin-top: 60px;
+  margin-left: 40px;
 }
 
 #weather-des {
-  margin-top: 100px;
+  margin-top: 150px;
+  color: #3e887e;
 }
