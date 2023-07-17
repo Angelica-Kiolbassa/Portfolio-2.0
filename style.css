@@ -25,11 +25,6 @@ li {
   color: #000000 !important;
 }
 
-.fixed-top .navbar-collapse {
-  max-height: 2em;
-  overflow-y: auto;
-}
-
 .footer {
   text-decoration: none;
   color: #99e2b4;
