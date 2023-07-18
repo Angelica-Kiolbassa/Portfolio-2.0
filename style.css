@@ -5,7 +5,8 @@ body {
 
 footer {
   color: #3e887e;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-top: 10px;
 }
 
 h1 {
@@ -46,13 +47,19 @@ li {
   color: #3e887e;
   font-family: Lora !important;
   font-weight: bold;
-  margin-top: ;
+  margin-top: 20px;
 }
 
 .contact-section {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 50px;
+}
+
+.design-imgs {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .footer {
@@ -66,11 +73,15 @@ li {
   font-size: 30px;
   color: #3e887e;
   font-weight: bold;
-  font-family: ;
 }
 
 .navbar-nav {
   justify-content: center;
+}
+
+.nav-link {
+  color: #3e887e;
+  font-weight: bold;
 }
 
 #art {
@@ -109,6 +120,13 @@ li {
   transition: all 200ms ease-in-out;
 }
 
+#design {
+  color: #3e887e;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 #headline {
   font-family: Lora !important;
   color: #3e887e;
@@ -125,7 +143,7 @@ li {
 #photo2 {
   border-radius: 50%;
   margin-top: 85px;
-  margin-left: -215px;
+  margin-left: -210px;
   border: 5px solid #99e2b4;
 }
 
