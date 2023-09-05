@@ -1,18 +1,18 @@
 body {
+  margin: 0 auto;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
 }
 
 footer {
-  color: #3e887e;
+  color: #b5838d;
   margin-top: 20px;
   margin-top: 10px;
 }
 
 h1 {
   font-size: 70px;
-  margin-top: 150px;
-  margin-left: -80px;
 }
 
 li {
@@ -20,18 +20,37 @@ li {
   text-align: center;
 }
 
+p {
+  color:#473b5b;
+}
+
 .btn-primary {
-  background: #99e2b4 !important;
-  border-color: #99e2b4;
-  color: #000000 !important;
+  background: #473b5b !important;
+  border-color: #473b5b!important;
+  color: #e5989b !important;
 }
 
 .btn-primary:hover {
-  border-color: #99e2b4;
+  border-color: #473b5b;
   transform: translateY(-5px);
-  box-shadow: 0px 5px 8px 2px #3e887e;
+  box-shadow: 0px 5px 8px 2px #b5838d;
   transition: all 200ms ease-in-out;
 }
+
+.call-button {
+border-radius: 10px;
+background: #473b5b;
+}
+
+.call-me {
+text-decoration: none;
+color: #fff;
+}
+
+.call-me:hover {
+color: #ffb4a2;
+}
+
 
 .contact-header {
   display: block;
@@ -39,12 +58,12 @@ li {
   margin-top: 100px;
   font-size: 50px;
   max-width: 50%;
-  color: #3e887e;
+  color: #e5989b;
 }
 
 .contact-footer {
   font-size: 50px;
-  color: #3e887e;
+  color: #ffb4a2;
   font-family: Lora !important;
   font-weight: bold;
   margin-top: 20px;
@@ -64,15 +83,16 @@ li {
 
 .footer {
   text-decoration: none;
-  color: #99e2b4;
+  color: #ffb4a2;
 }
 
-.follow-me {
-  display: block;
-  margin: 0 auto;
-  font-size: 30px;
-  color: #3e887e;
-  font-weight: bold;
+
+.header {
+  color: #b5838d;
+}
+
+.media-body {
+  color:#473b5b;
 }
 
 .navbar-nav {
@@ -80,12 +100,15 @@ li {
 }
 
 .nav-link {
-  color: #3e887e;
+  color: #E5989B;
   font-weight: bold;
 }
 
+
 #about-me {
   max-width: 80ch;
+  margin: 0 auto;
+  color: #473b5b;
 }
 
 #art {
@@ -104,7 +127,7 @@ li {
 
 #art-des {
   margin-top: 100px;
-  color: #3e887e;
+  color: #ffb4a2;
 }
 
 #contact-icons {
@@ -112,20 +135,20 @@ li {
 }
 
 #contact-btn {
-  background: #3e887e !important;
-  border-color: #3e887e !important;
-  color: #99e2b4 !important;
+  background: #473b5b !important;
+  border-color: #473b5b!important;
+  color: #e5989b !important;
 }
 
 #contact-btn:hover {
-  border-color: #3e887e;
+  border-color: #473b5b;
   transform: translateY(-5px);
-  box-shadow: 0px 5px 8px 2px #99e2b4;
+  box-shadow: 0px 5px 8px 2px #b5838d;
   transition: all 200ms ease-in-out;
 }
 
 #design {
-  color: #3e887e;
+  color: #e5989b;
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 15px;
@@ -139,22 +162,28 @@ li {
 
 #headline {
   font-family: Lora !important;
-  color: #3e887e;
+  color: #E5989B;
+  margin: 0 auto;
+}
+
+#name {
+  cursor:default;
+color: #fff;
 }
 
 #navigation {
-  background-color: #99e2b4 !important;
+  background-color: #473b5b !important;
 }
 
 #nav-pic {
   border-radius: 50%;
+  cursor:default;
 }
 
 #photo2 {
   border-radius: 50%;
   margin-top: 85px;
-  margin-left: -215px;
-  border: 5px solid #99e2b4;
+  margin 0 auto;
 }
 
 #weather-app {
@@ -164,5 +193,5 @@ li {
 
 #weather-des {
   margin-top: 150px;
-  color: #3e887e;
+  color: #ffb4a2;
 }
