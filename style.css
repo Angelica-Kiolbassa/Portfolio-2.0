@@ -2,7 +2,6 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  
 }
 
 footer {
@@ -22,12 +21,12 @@ li {
 }
 
 p {
-  color:#473b5b;
+  color: #473b5b;
 }
 
 .btn-primary {
   background: #473b5b !important;
-  border-color: #473b5b!important;
+  border-color: #473b5b !important;
   color: #e5989b !important;
 }
 
@@ -39,19 +38,18 @@ p {
 }
 
 .call-button {
-border-radius: 10px;
-background: #473b5b;
+  border-radius: 10px;
+  background: #473b5b;
 }
 
 .call-me {
-text-decoration: none;
-color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .call-me:hover {
-color: #ffb4a2;
+  color: #ffb4a2;
 }
-
 
 .contact-header {
   display: block;
@@ -87,13 +85,12 @@ color: #ffb4a2;
   color: #ffb4a2;
 }
 
-
 .header {
   color: #b5838d;
 }
 
 .media-body {
-  color:#473b5b;
+  color: #473b5b;
 }
 
 .navbar-nav {
@@ -101,10 +98,9 @@ color: #ffb4a2;
 }
 
 .nav-link {
-  color: #E5989B;
+  color: #e5989b;
   font-weight: bold;
 }
-
 
 #about-me {
   max-width: 80ch;
@@ -112,23 +108,23 @@ color: #ffb4a2;
   color: #473b5b;
 }
 
-#art {
-  margin-top: 60px;
-  color: #3e887e;
-  font-weight: bold;
+/* #bts-pic {
+  margin-top: 100px;
+} */
+
+#bts-app-one {
+  margin: 0 auto;
 }
 
-#art-pic {
-  margin-top: 100px;
+#bts-app-two {
+  margin: 0 auto;
 }
 
-#art-app {
-  margin-top: 100px;
-}
-
-#art-des {
-  margin-top: 100px;
+#bts-des {
+  text-align: center;
+  margin-top: 90px;
   color: #ffb4a2;
+  max-width: 80ch;
 }
 
 #contact-icons {
@@ -137,7 +133,7 @@ color: #ffb4a2;
 
 #contact-btn {
   background: #473b5b !important;
-  border-color: #473b5b!important;
+  border-color: #473b5b !important;
   color: #e5989b !important;
 }
 
@@ -163,13 +159,13 @@ color: #ffb4a2;
 
 #headline {
   font-family: Lora !important;
-  color: #E5989B;
+  color: #e5989b;
   margin: 0 auto;
 }
 
 #name {
-  cursor:default;
-color: #fff;
+  cursor: default;
+  color: #fff;
 }
 
 #navigation {
@@ -178,21 +174,31 @@ color: #fff;
 
 #nav-pic {
   border-radius: 50%;
-  cursor:default;
+  cursor: default;
 }
 
 #photo2 {
   border-radius: 50%;
   margin-top: 85px;
-  margin 0 auto;
+  margin: 0 auto;
 }
 
 #weather-app {
   margin-top: 60px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 #weather-des {
-  margin-top: 150px;
+  margin-top: 200px;
+  color: #ffb4a2;
+}
+
+#clock-app {
+  margin-top: 60px;
+  padding: 0px;
+}
+
+#clock-des {
+  margin-top: 130px;
   color: #ffb4a2;
 }
