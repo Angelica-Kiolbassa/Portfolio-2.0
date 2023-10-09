@@ -110,10 +110,12 @@ p {
 
 #bts-app-one {
   margin: 0 auto;
+  margin-left: 60px;
 }
 
 #bts-app-two {
   margin: 0 auto;
+  margin-top: -30px;
 }
 
 #bts-des {
@@ -125,7 +127,8 @@ p {
 
 #clock-app {
   margin-top: 60px;
-  padding: 0px;
+  margin: 0 auto;
+  margin-left: 60px;
 }
 
 #clock-des {
@@ -192,6 +195,10 @@ p {
 #weather-app {
   margin-top: 60px;
   margin-left: 60px;
+}
+
+#weather-app-two {
+  margin: 0 auto;
 }
 
 #weather-des {
