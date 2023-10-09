@@ -108,10 +108,6 @@ p {
   color: #473b5b;
 }
 
-/* #bts-pic {
-  margin-top: 100px;
-} */
-
 #bts-app-one {
   margin: 0 auto;
 }
@@ -125,6 +121,16 @@ p {
   margin-top: 90px;
   color: #ffb4a2;
   max-width: 80ch;
+}
+
+#clock-app {
+  margin-top: 60px;
+  padding: 0px;
+}
+
+#clock-des {
+  margin-top: 130px;
+  color: #ffb4a2;
 }
 
 #contact-icons {
@@ -190,15 +196,5 @@ p {
 
 #weather-des {
   margin-top: 200px;
-  color: #ffb4a2;
-}
-
-#clock-app {
-  margin-top: 60px;
-  padding: 0px;
-}
-
-#clock-des {
-  margin-top: 130px;
   color: #ffb4a2;
 }
